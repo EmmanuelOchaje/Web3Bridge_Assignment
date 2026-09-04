@@ -1,0 +1,18 @@
+# Build artifacts
+/target
+**/target
+target/
+
+# Dependencies
+Cargo.lock
+**/Cargo.lock
+
+# IDE
+.DS_Store
+**/.DS_Store
+.vscode/
+.idea/
+
+# Rust
+**/*.rs.bk
+*.pdb
